@@ -9,6 +9,8 @@
 
 add_filter('init', function () {
     register_nav_menus([
+        "main" => "Hauptnavigation",
+        "legals" => "Impressum & Datenschutz",
         // todo: Menus hier registrieren
     ]);
 });
